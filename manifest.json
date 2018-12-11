@@ -1,0 +1,24 @@
+{
+	 "manifest_version": 2,
+	 "name": "Comicical LIfe",
+	 "description": "Sets the font of all text on www.Facebook.com to COmic Sans",
+	 "version": "1",
+	 "author": "Oscar Allen",
+	"browser_action": {
+	   "default_icon": "favicon.png",
+	   "default_title": "Have a good day",
+	   "icons": { 
+			"16": "favicon16.png",
+			"64": "favicon64.png",
+			"32": "favicon32.png",
+			"48": "favicon48.png",
+			"128": "favicon128.png"
+		}
+	 },
+	"content_scripts": [{
+    "css": ["looks.css"],
+	"js":["editbody.js"],
+    "matches": ["http://www.starshiplad.com/*"]
+  }],
+	"permissions": ["activeTab"]
+}
