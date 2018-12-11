@@ -1,5 +1,40 @@
-body{
-	background-color: cyan;
-	font: "Comic-Sans";
+*{
+	//background-color: cyan;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:20;
+}
+html{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:20;
+	
+	
+}
+#main{
+	
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:20;
+}
+boy{
+	
+	
+}
+.home{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:20;
+	
+}
+contentarea{
+	//background-color: cyan;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:20;
+}
+._5pcr userContentWrapper{
+	//background-color: cyan;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:20;
+}
+#globalContainer{
+	//background-color: cyan;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	font-size:20;
 }
