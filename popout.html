@@ -14,16 +14,18 @@
 <form>
 <form name="values">
 <select id="fonttype" name="fonttype" value="Select">
-  <option value="Comic Sans MS, cursive, sans-serif" style="font-family:Comic Sans MS, cursive, sans-serif">Comic Sans</option>
-  <option value="Times New Roman, Times, serif" style="font-family:Times New Roman, Times, serif">Times New Roman</option>
-  <option value="Courier New, Courier, monospace" style="font-family:Courier New, Courier, monospace">Courior</option>
-  <option value="Arial, Helvetica, sans-serif" style="font-family:font-family=Arial, Helvetica, sans-serif">Arial</option>
+  <option selected="">Please select</option>
+  <option value="Comic Sans MS, cursive, sans-serif" style="font-family:Comic Sans MS, cursive, sans-serif" text="Comic Sans">Comic Sans</option>
+  <option value="Times New Roman, Times, serif" style="font-family:Times New Roman, Times, serif" text="Times New Roman">Times New Roman</option>
+  <option value="Courier New, Courier, monospace" style="font-family:Courier New, Courier, monospace" text="Courior" >Courior</option>
+  <option value="Arial, Helvetica, sans-serif" style="font-family:font-family=Arial, Helvetica, sans-serif" text="Arial">Arial</option>
 </select>
-<select name="fontsize">
-  <option value="2">2</option>
-  <option value="10">10</option>
-  <option value="18">18</option>
-  <option value="36">36</option>
+<select name="fontsize" id="fontsize" value="Select">
+  <option selected="">Please select</option>
+  <option value="25%" style="font-size: 25%" text="25%">25%</option>
+  <option value="50%" style="font-size: 50%" text="50%">50%</option>
+  <option value="100%" style="font-size: 100%" text="100%" >100%</option>
+  <option value="200%" style="font-size: 200%" text="200%">200%</option>
 </select>
 <button id="fontbutton" > Press to change Fonts</button>
 </form>
